@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="cadastro.css">
+<title>Cadastro dos Alunos</title>
+</head>
+<body>
+	<div id="titulo" align="center">
+		<h1>Cadastro de Aluno</h1>
+	</div>
+
+	<form action="Cadastro.jsp" method="post">
+		<fieldset>
+			<legend> Dados do Aluno</legend>
+			<p>
+				<label> Nome do aluno: </label> <input type="text" id="nome" name="nome" size="20">
+				<label> Idade: </label> <input type="text" id="idade" name="idade" size="2">
+
+			</p>
+
+
+			<p>
+				Escolaridade: <input type="radio" id="Completo" name="escolaridade"
+					value="Ensino Médio Completo"> <label for="Completo">
+					Ensino Médio Completo</label> <input type="radio" id="Incompleto"
+					name="escolaridade" value="Ensino Médio Incompleto"> <label
+					for="Incompleto"> Ensino Médio Incompleto</label> <input
+					type="radio" id="SupCompleto" name="escolaridade"
+					value="Ensino Superior Completo"> <label for="SupCompleto">
+					Ensino Superior Completo</label> <input type="radio" id="SupIncompleto"
+					name="escolaridade" value="Ensino Superior Incompleto"> <label
+					for="SupIncompleto"> Ensino Superior Incompleto</label>
+			</p>
+
+			<input type="submit" value="Cadastrar"> <input type="reset"
+				value="Limpar">
+		</fieldset>
+	</form>
+</body>
+</html>

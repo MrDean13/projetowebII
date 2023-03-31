@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+	color: white;
+	background: linear-gradient(to bottom right, black, red);
+	background-attachment: fixed;
+}
+
+fieldset{
+	padding: 30px;
+	text-align: center;
+}
+#opcoes{
+	padding: 70px
+}

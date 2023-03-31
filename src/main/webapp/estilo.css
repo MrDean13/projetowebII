@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+	margin: 100px 40px 10px 70px;
+	background: linear-gradient(to bottom right, blue, black);
+	background-attachment: fixed;
+	color: white
+}
+
+a:link{
+	color: white;
+	font-size: 30px;
+}
+
+a:visited{
+	color: white;
+	font-size: 30px;
+}
+
+#opcoes{
+	border-style: solid;
+	border-color: white;
+	padding: 50px;
+	text-align: left;
+	
+}
+
+#titulo{
+	padding: 50px;
+}
